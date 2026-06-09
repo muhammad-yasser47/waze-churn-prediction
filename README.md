@@ -28,6 +28,9 @@ Customer retention is a critical challenge for navigation platforms such as Waze
 - Retained users showed higher engagement levels
 - Long-distance drivers exhibited higher churn tendencies
 
+<img width="1000" height="462" alt="image" src="https://github.com/user-attachments/assets/93413c2c-8a33-417e-9ee7-2dcda95750ac" />
+
+
 3. Feature Engineering
 - km_per_driving_day
 - km_per_drive
@@ -74,15 +77,24 @@ Precision: 41.6%
 Recall: 20.1%
 F1 Score: 27.1%
 
+<img width="350" height="168" alt="image" src="https://github.com/user-attachments/assets/0703fadd-d912-41d3-8274-14b82e408e9b" />
+
+
 **Model Selection**
 
 Recall was selected as the primary evaluation metric because the dataset was imbalanced (82% retained vs 18% churned). Missing churned users was considered more costly than incorrectly flagging retained users.
 
+<img width="562" height="426" alt="image" src="https://github.com/user-attachments/assets/57d51cec-887d-4654-b8ce-5c8eafec7491" />
+
+
 **Key Insights**
 
-- Activity days were the strongest predictor of retention.
+- km_per_hour has the highest importance score (~1585)
 - Professional drivers had substantially lower churn rates.
 - Long-distance drivers were more likely to churn.
+
+<img width="765" height="446" alt="image" src="https://github.com/user-attachments/assets/6fdb9430-f691-4a1c-a1bb-54d6783a578f" />
+
 
 **Technologies Used**
 
